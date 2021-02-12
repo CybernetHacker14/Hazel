@@ -5,16 +5,8 @@
 
 extern Hazel::Application* Hazel::CreateApplication();
 
-<<<<<<< HEAD
-extern "C" {
-	__declspec(dllexport) uint32_t NvOptimusEnablement = 0x00000001;
-}
-
-int main(int argc, char** argv) {
-=======
 int main(int argc, char** argv)
 {
->>>>>>> 9ee977d... Updated as per @lovely_santa 's suggestion
 	Hazel::Log::Init();
 
 	HZ_PROFILE_BEGIN_SESSION("Startup", "HazelProfile-Startup.json");
